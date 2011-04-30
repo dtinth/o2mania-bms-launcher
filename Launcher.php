@@ -48,7 +48,7 @@ class Song {
 	function output() {
 		fprintf(stderr, " - %s\n", $this->title);
 		echo '
-	<Music file="' . h($this->path) . '" title="' . h($this->title) . '" level="' . h($this->level) . '" degree="1" manu="' . h($this->manu) . '" genre="' . h($this->genre) . '" type="2"/>';
+	<Music file="' . h($this->path) . '" title="' . h($this->title) . '" level="0" degree="' . h($this->level) . '" manu="' . h($this->manu) . '" genre="' . h($this->genre) . '" type="2"/>';
 	}
 }
 
